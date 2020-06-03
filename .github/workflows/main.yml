@@ -33,5 +33,5 @@ jobs:
     - name: Install Surge
       run: npm install --global surge
     - name: deploy to surge
-      #run: surge ./build helloworldreactapp.surge.sh --token ${{ secrets.SURGETOKEN }}
-      run: surge ./build reactapp2020.surge.sh --token ${{ secrets.SURGETOKEN }}
+      run: surge ./build helloworldreactapp.surge.sh --token ${{ secrets.SURGETOKEN }}
+      
