@@ -1,4 +1,5 @@
 import React from 'react';
+import Tweet from './tweet'
 function App(){
   const SayHello = () =>{
     //console.log('I Just Fell in Love with REACT');
@@ -6,9 +7,13 @@ function App(){
   }
 
  return(
-   <div>
-     <h1>Hello-React</h1>
-     <button onClick={SayHello}>Annoucement</button>
+
+   <div className='ap'>
+     <button className='SayHello'>React</button>
+     <Tweet name="Arslan" /> 
+     <Tweet name="Abrar" /> 
+     <Tweet name="Usman" /> 
+     <Tweet name="Tariq" />  
    </div>
  );
 }

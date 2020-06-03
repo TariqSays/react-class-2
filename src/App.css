@@ -1,5 +1,23 @@
 .App {
   text-align: center;
+ 
+}
+.tweet{
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  justify-content: space-around;
+}
+.ap{
+height: 100vh;
+background: lightblue;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 
 .App-logo {
