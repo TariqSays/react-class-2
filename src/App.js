@@ -1,11 +1,6 @@
 import React from 'react';
 import Tweet from './tweet'
 function App(){
-  const SayHello = () =>{
-    //console.log('I Just Fell in Love with REACT');
-    alert('I just fell in love with REACT')
-  }
-
  return(
 
    <div className='ap'>
